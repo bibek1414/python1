@@ -125,16 +125,34 @@
 
 '''Multiplication table'''
 
-input_number = int(input("Enter the number: "))
+# input_number = int(input("Enter the number: "))
 
-for i in range(10):
-    print(f"{i+1} * {input_number} = {(i+1)*input_number}")
+# for i in range(10):
+#     print(f" {input_number} * {i+1}  = {(i+1)*input_number}")
+
+'''LCM of two numbers'''
+# import math
+# def leacm(a,b):
+#     return math.lcm(a,b)
+
+# first_number= int(input("Enter the first number : "))
+# second_number= int(input("Enter the second number : "))
+
+# least_common=leacm(first_number,second_number)
+# print(f"The LCM of {first_number} and {second_number} is {least_common}")
 
     
+'''vowel in alphabet'''
 
+# input_string = input("Enter the word: ").lower()
+# vowels = "aeiou"
+# count = 0
 
+# for x in input_string:
+#     if x in vowels:
+#         count += 1
 
-
+# print(f"The total vowels are: {count}")
 
 
 
